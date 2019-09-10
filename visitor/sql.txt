@@ -1,0 +1,23 @@
+CREATE DATABASE PinkTowers;
+\c PinkTowers
+CREATE TABLE Visitor(
+        ID SERIAL PRIMARY KEY,
+        Name text,
+        Age integer,
+        Date DATE,
+        Time TIME,
+        Person to see text,
+        Comments text
+        );
+
+INSERT INTO visitor (Name, Age, Date, Time, Person_to_see, comments) VALUES ('Thando', '25', '15 May 2019', '13:30', 'Stacy', 'Study');
+
+INSERT INTO visitor (name, age, date, time, person_to_see, comments) VALUES ('Thami', '24', '21 Aug 2019', '18:05', 'Drew', 'Hang');
+
+INSERT INTO visitor (name, age, date, time, person_to_see, comments) VALUES ('Thando', '25', '21 May 2019', '13:05', 'Cliff', 'Issa Vibe');
+
+
+
+
+
+
